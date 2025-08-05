@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JNR49k - Vente de puffs</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff4d4d;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .product {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product img {
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px #ff4d4d;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .product-info h2 {
+            margin-top: 0;
+            color: #ff4d4d;
+        }
+        .price {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #ffa500;
+        }
+        .btn-buy {
+            background-color: #ff4d4d;
+            color: #fff;
+            padding: 12px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .btn-buy:hover {
+            background-color: #cc3a3a;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #888;
+            background-color: #111;
+            margin-top: 40px;
+        }
+        @media(max-width: 600px) {
+            .product {
+                flex-direction: column;
+                text-align: center;
+            }
+            .product img {
+                width: 100%;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>JNR49k - Puffs Premium</header>
+    <main>
+        <section class="product">
+            <img src="https://i.imgur.com/your-puff-image.jpg" alt="Puff JNR49k" />
+            <div class="product-info">
+                <h2>Puff JNR49k 16k</h2>
+                <p>Une puff rechargeable, 16 000 bouffées, saveur intense et batterie longue durée.</p>
+                <div class="price">7€</div>
+                <button class="btn-buy" onclick="alert('Merci pour votre intérêt ! Contactez-nous sur Telegram @Jnr49k pour commander.')">
+                    Commander
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        © 2025 JNR49k - Tous droits réservés | Contact : <a href="https://t.me/Jnr49k" target="_blank" style="color:#ffa500;">Telegram</a>
+    </footer>
+</body>
+</html>ajout du site jnr49k
